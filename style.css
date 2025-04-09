@@ -1,11 +1,15 @@
-/* Apply grey background to 1st, 3rd, 5th, and 7th rows */
-tr:nth-child(2n-1) {
-    background-color: rgb(202, 202, 202);
-}
-table {
+table{
+    border: 1px solid #000;
     border-collapse: collapse;
-    width: 100%;
 }
-.bor {
-    border: 1px solid rgb(202, 202, 202);
+tr,td{
+    border: 1px solid #000;
+    padding: 5px;
 }
+tr:nth-child(1),tr:nth-child(2){
+    background-color: #e61818;
+    color: white;}
+
+    tr:nth-child(3) td, tr:nth-child(4) td, tr:nth-child(5) td, tr:nth-child(6) td {
+        border-bottom: 0px inset   ; /* Lighter border color */
+    }
