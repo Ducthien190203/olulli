@@ -1,0 +1,11 @@
+/* Apply grey background to 1st, 3rd, 5th, and 7th rows */
+tr:nth-child(2n-1) {
+    background-color: rgb(202, 202, 202);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.bor {
+    border: 1px solid rgb(202, 202, 202);
+}
