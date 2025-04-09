@@ -7,38 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-       <tr>
-        <td rowspan="2">Thứ</td>
-        <td colspan="2">Hoạt động</td>
-       </tr>
-        <tr>
-            <td>Sáng</td>
-            <td>Chiều</td>
-        </tr>
-        <tr>
-            <td>Thứ 2</td>
-            <td>Thể dục</td>
-            <td>HĐ trò chơi mới</td>
-        </tr>
-        <tr>
-            <td>Thứ 3</td>
-            <td>Nhận biết tập nói</td>
-            <td>Kỹ năng sống</td>
-        </tr>
-        <tr>
-            <td>Thứ 4</td>
-            <td>Âm nhạc</td>
-            <td>Vui chơi</td>
-        </tr>
-        <tr>
-            <td>Thứ 5</td>
-            <td>Văn học</td>
-            <td>Giá trị sống</td>
-        </tr>
 
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+        <h1>Mô tả</h1>
+        <label for="name">Họ và tên:</label><br>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email" required><br><br>
+        <label for="phone">Số điện thoại:</label><br>
+        <input type="text" name="phone" id="phone" required><br><br>
+        <label for="male">Giới tính:</label><br>
+        <input type="radio" name="gender" id="male" checked required>
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="female" required>
+        <label for="male">Nữ</label><br><br>
+        <input type="submit" value="Đăng ký"><br><br>
+        
+        <br><br>
+        
 
-
-    </table>
+    </form>
 </body>
 </html>
